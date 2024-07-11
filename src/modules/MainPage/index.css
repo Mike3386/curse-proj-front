@@ -1,0 +1,9 @@
+.image-item {
+  height: 100%;
+}
+
+.image-item > img {
+  max-height: 80%;
+  max-width: 95vw;
+  width: auto;
+}

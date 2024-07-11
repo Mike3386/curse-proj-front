@@ -1,0 +1,114 @@
+.UserImagesWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.UserImagesElement1 {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  margin: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 3px;
+  background: lightgray;
+}
+
+.user-images-share-image {
+  height: 20px;
+  margin-bottom: 0px;
+  
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.user-image-download-button {
+  cursor: pointer;
+}
+
+.UserImagesImage1 {
+  /* max-height: 100%; */
+  /* max-width: 100%; */
+  /* height: auto; */
+  /* width: auto; */
+  object-fit: scale-down;
+  width: 300px;
+  max-height: 270px;
+  margin: auto;
+}
+.delete-image1 {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin-right: 30px;
+}
+
+.switch-access-image1 {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+
+.user-image-icons-wrapper {
+}
+
+.UserImagesImage {
+
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-wrapper-1 {
+  max-height: calc(100vh - 300px);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+}
+
+.image-wrapper-1 > img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+.react-tags-wrapper3 {
+  /* position: absolute; */
+  position: initial !important;
+  bottom: 0;
+  width: 100%;
+  text-transform: capitalize;
+}
+
+.react-tags-wrapper {
+  position: unset;
+}
+
+.ReactTags__suggestions {
+  top: 19px;
+}
+
+.ReactTags__suggestions > ul {
+  padding-left: 0px;
+}
+
+.ReactTags__tagInputField:focus-visible {
+  outline: none;
+}

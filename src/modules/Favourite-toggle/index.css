@@ -1,0 +1,9 @@
+.FavouriteToggleWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.FavouriteToggleIcon {
+  width: 20px;
+  height: 20px;
+}

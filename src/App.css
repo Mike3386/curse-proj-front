@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: darkgray;
+}
+
+#root > .App {
+  flex: 1 1 auto;
 }
 
 .App-logo {
@@ -35,4 +42,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  flex: 1 1 auto;
+  width: 100%;
+  flex-direction: column;
+}
+
+html {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+#root {
+  display: flex;
+}
+
+.copyright {
+  margin-top: auto;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+.autocomplete-input-component > div > div > span {
+  color: white;
+}
+.autocomplete-input-component > div > input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+.autocomplete-input-component > div > input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+.autocomplete-input-component > div > input::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
 }

@@ -1,0 +1,77 @@
+.UserImagesWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.UserImagesElement {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  margin: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 3px;
+  background: lightgray;
+}
+
+.share-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.UserImagesImage {
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+.delete-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+
+
+.UserImagesImage {
+
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-wrapper-1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+}
+
+.image-wrapper-1 > img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+.react-tags-wrapper3 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-transform: capitalize;
+}

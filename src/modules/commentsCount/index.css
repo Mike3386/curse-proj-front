@@ -1,0 +1,18 @@
+.CommentsCount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  padding: 2px;
+  font-weight: 600;
+}
+
+.CommentsCountText {
+  font-weight: 600;
+}
+
+.CommentsCountImage {
+  width: 20px;
+  height: 22px;
+  margin-left: 3px;
+}

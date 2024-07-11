@@ -1,0 +1,122 @@
+.UserImagesWrapper2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.UserImagesElement2 {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  margin: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 3px;
+  background: lightgray;
+}
+
+.share-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.UserImagesImage3 {
+  max-height: calc(100% - 30px);
+  max-width: 300px;
+  /* height: auto; */
+  width: auto;
+  margin-top: auto;
+  margin-bottom: auto;  
+}
+.delete-image3 {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+.delete-user {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+
+
+.UserImagesImage {
+
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-wrapper-1 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+}
+
+.image-wrapper-1 > div > img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+  margin-bottom: 5px;
+}
+
+.react-tags-wrapper3 {
+  position: relative;
+  /* bottom: 0; */
+  width: 100%;
+  text-transform: capitalize;
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: #553588 !important;
+}
+
+.UserImages-user-email {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-break: auto;
+  text-align: left;
+}
+
+.UserImages-user-email:hover{
+  text-overflow: inherit;
+  white-space: pre-wrap;
+  line-break: anywhere;
+}
+
+.UserImages-user-email-wrapper {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 80%;
+  top: 3px;
+  left: 3px;
+  background-color: rgba(255,255,255, 0.8);
+  border-radius: 3px;
+}
+
+.UserImages-user-email-wrapper > img {
+  width: 20px;
+  height: 20px;
+}
+
+.control-bar-2 {
+  width: 100%;
+}

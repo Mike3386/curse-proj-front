@@ -1,0 +1,29 @@
+.public-image-preview {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: lightgrey;
+}
+.public-image-preview > img {
+  margin: auto;
+  width: auto;
+  max-width: 100%;
+  border-radius: 5px;
+  height: auto;
+  max-height: 100%;
+}
+
+.AddImageComponent {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

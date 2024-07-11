@@ -1,0 +1,14 @@
+.Views-comp-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  padding: 2px;
+  font-weight: 600;
+}
+
+.Views-comp-eye {
+  width: 20px;
+  height: 22px;
+  margin-left: 3px;
+}

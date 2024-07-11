@@ -1,0 +1,47 @@
+.user-main-page-image-item {
+  height: 100%;
+}
+
+.image-wrapper > img {
+  width: auto;
+  height: auto;
+  max-height: 200px;
+  max-width: 200px;
+  margin: auto;
+}
+
+.user-main-page {
+
+}
+
+.image-wrapper {
+  height: 230px;
+  margin-top: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.upload-drop {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 60vh;
+  padding: 20px
+}
+
+.images-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.filerobot-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+}

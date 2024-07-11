@@ -1,0 +1,24 @@
+.rating-component {
+  position: absolute;
+  
+}
+
+.rating-wrapper {
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.single-star-icon {
+  color: #faaf00;
+}
+
+.single-star-icon-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.single-star-rate {
+  margin-right: 3px
+}
